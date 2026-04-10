@@ -25,6 +25,10 @@ Para resolver isso, ajustei o limite de decisão do modelo: em vez de alertar s�
 - Gera apenas **1% de alarmes falsos** sobre o total de operações normais
 - AUC-ROC de **0.964** — bem acima do limite de 0.8 considerado bom para aplicações industriais
 
+![Painel de Resultados](painel_resultados.png)
+
+![Comparação de Threshold](comparacao_threshold.png)
+
 ## O que o modelo aprendeu
 
 As variáveis mais importantes para prever falha foram **rotação e torque** — juntas respondem por 60% do poder preditivo do modelo. Isso faz sentido físico, pois são os parâmetros dinâmicos da máquina, que refletem o esforço real do equipamento em cada momento.
